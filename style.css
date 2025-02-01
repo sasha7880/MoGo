@@ -6,3 +6,9 @@
     --fourth-text: #333333;
     --primary-button-color: #95E1D3;
 }
+:root {
+    --main-font: "Montserrat" , "sans-serif";
+    --second-font: "Roboto" , "sans-serif";
+    --thind-font: "Kaushan Script" , "sans-serif";
+
+}
