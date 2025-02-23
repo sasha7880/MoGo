@@ -6,9 +6,72 @@
     --fourth-text: #333333;
     --primary-button-color: #95E1D3;
 }
-:root {
-    --main-font: "Montserrat" , "sans-serif";
-    --second-font: "Roboto" , "sans-serif";
-    --thind-font: "Kaushan Script" , "sans-serif";
 
+:root {
+    --main-font: "Montserrat", "sans-serif";
+    --second-font: "Roboto", "sans-serif";
+    --thind-font: "Kaushan Script", "sans-serif";
+
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    margin-top: 17px;
+    margin-bottom: 68px;
+}
+
+.header-nav {
+    padding-top: 15;
+}
+
+.header-logo {
+    padding-bottom: 12px;
+}
+
+.service-subtitle {
+    margin-bottom: 20px;
+}
+
+.service-title {
+    margin-bottom: 109px;
+}
+
+.service-item:nth-child(n+3) {
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+
+.about-subtitle {
+    margin-bottom: 17px;
+}
+
+about-title {
+    margin-bottom: 85px;
+}
+
+.about-text {
+    margin-bottom: 27px;
+}
+
+.about-name {
+    margin-top: 30px;
+    margin-bottom: 11px;
+}
+
+.about-role {
+    padding-bottom: 80px;
+}
+
+.footer-copyright {
+    padding-top: 22px;
+    padding-bottom: 20px;
+}
+
+.footer-button {
+    padding-top: 9px;
+    padding-bottom: 10px;
 }
