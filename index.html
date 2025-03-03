@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
+  
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MoGo</title>
   <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"/>
   <link rel="stylesheet" href="./css/reset.css">
-  <link href="style.css" rel="stylesheet" />
+  <link href="./css/style.css" rel="stylesheet" />
   <link
     href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
     rel="stylesheet">
@@ -20,130 +20,172 @@
     rel="stylesheet">
 </head>
 
-<body class="body">
+<body>
   <header class="header">
-    <div class="container">
-    <a class="header-link" href="#">MoGo</a>
-    <nav class="header-nav">
-      <ul class="header-list">
-        <li class="header-item"><a class="header-link" href="#">ABOUT</a></li>
-        <li class="header-item"><a class="header-link" href="#">SERVICE</a></li>
-        <li class="header-item"><a class="header-link" href="#">WORK</a></li>
-        <li class="header-item"><a class="header-link" href="#">BLOG</a></li>
-        <li class="header-item"><a class="header-link" href="#">CONTACT</a></li>
-      </ul>
-    </nav>
-  </div>
+    <div class="container header-container">
+      <nav class="header-nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Service</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Work</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
   <main class="main">
-    <section class="service">
-      <div class="container">
-      <p class="service-intro">We work with</p>
-      <h2 class="service-title">Amazing Services</h2>
-      <ul class="service-list">
-        <li class="service-item">
-          <article class="service-card">
-            <img class="service-img" src="./imgs/clock.png" alt="Clock" />
-            <h3 class="service-title">Photography</h3>
-            <p class="service-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-              do eiusmod tempor.
-            </p>
-          </article>
-        </li>
-        <li>
-          <article class="service-card">
-            <img class="card-pic" src="./imgs/bar-graph.png" alt="Bar Graph" />
-            <h3 class="card-title">Photography</h3>
-            <p class="card-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor.
-            </p>
-          </article>
-        </li>
-        <li>
-          <article class="service-card">
-            <img class="card-pic" src="./imgs/display.png" alt="Display" />
-            <h3 class="card-title">Photography</h3>
-            <p class="card-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor.
-            </p>
-          </article>
-        </li>
-        <li>
-          <article class="service-card">
-            <img class="card-pic" src="./imgs/paper.png" alt="Paper" />
-            <h3 class="card-title">Photography</h3>
-            <p class="card-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor.
-            </p>
-          </article>
-        </li>
-        <li>
-          <article class="service-card">
-            <img class="card-pic" src="./imgs/home.png" alt="Home" />
-            <h3 class="card-title">Photography</h3>
-            <p class="card-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor.
-            </p>
-          </article>
-        </li>
-        <li>
-          <article class="service-card">
-            <img class="card-pic" src="./imgs/displays.png" alt="Display" />
-            <h3 class="card-title">Photography</h3>
-            <p class="card-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor.
-            </p>
-          </article>
-        </li>
-      </ul>
-    </div>
+    <section class="hero">
+      <div class="container hero-container">
+        <p class="hero-subtitle">We work with</p>
+        <h2 class="hero-title">Amazing services</h2>
+        <ul class="hero-list">
+          <li class="hero-item">
+            <article class="hero-article">
+              <img
+                src="./imgs/clock.png"
+                alt="Годинник"
+                class="hero-img"
+              />
+              <h3 class="hero-article-title">Photography</h3>
+              <p class="hero-desc">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Minima, sint?
+              </p>
+            </article>
+          </li>
+          <li class="hero-item">
+            <article class="hero-article">
+              <img
+                src="./imgs/bar-graph.png"
+                alt="Bar graph"
+                class="hero-img"
+              />
+              <h3 class="hero-article-title">Photography</h3>
+              <p class="hero-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Commodi, corporis.
+              </p>
+            </article>
+          </li>
+          <li class="hero-item">
+            <article class="hero-article">
+              <img
+                src="./imgs/display.png"
+                alt="Телевізор"
+                class="hero-img"
+              />
+              <h3 class="hero-article-title">Photography</h3>
+              <p class="hero-desc">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Assumenda, dolorum.
+              </p>
+            </article>
+          </li>
+          <li class="hero-item">
+            <article class="hero-article">
+              <img
+                src="./imgs/paper.png"
+                alt="list"
+                class="hero-img"
+              />
+              <h3 class="hero-article-title">Photography</h3>
+              <p class="hero-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellat, at!
+              </p>
+            </article>
+          </li>
+          <li class="hero-item">
+            <article class="hero-article">
+              <img
+                src="./imgs/home.png"
+                alt="home"
+                class="hero-img"
+              />
+              <h3 class="hero-article-title">Photography</h3>
+              <p class="hero-desc">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Saepe, et!
+              </p>
+            </article>
+          </li>
+          <li class="hero-item">
+            <article class="hero-article">
+              <img
+                src="./imgs/displays.png"
+                alt="targets"
+                class="hero-img"
+              />
+              <h3 class="hero-article-title">Photography</h3>
+              <p class="hero-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Deleniti, libero!
+              </p>
+            </article>
+          </li>
+        </ul>
+      </div>
     </section>
-    <section class="about">
-      <div class="container"></div>
-      <p class="about-title">Meet Our Team</p>
-      <h3 class="about-subtitle">Who we are</h3>
-      <p class="about-text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-        minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-        aliquip ex ea commodo consequat.
-      </p>
-      <ul class="about-list">
-        <li class="about-item">
-          <img class="about-pic" src="./imgs/matthew-dix.png" alt="Matthew Dix" />
-          <h3 class="about-title">Matthew Dix</h3>
-          <p class="about-subject">Graphic Design</p>
-        </li>
-        <li class="about-item">
-          <img class="about-pic" src="./imgs/christopher-campbell.png" alt="Christopher Campbell" />
-          <h3 class="about-title">Christopher Campbell</h3>
-          <p class="about-subject">Branding/UX Design</p>
-        </li>
-        <li class="about-item">
-          <img class="about-pic" src="./imgs/michael-fertig.png" alt="Michael Fertig" />
-          <h3 class="about-title">Michael Fertig</h3>
-          <p class="about-subject">Developer</p>
-        </li>
-      </ul>
-    </div>
+    <section class="team">
+      <div class="container team-container">
+        <p class="team-subtitle">who we are?</p>
+        <h2 class="team-title">Meet our team</h2>
+        <p class="team-desc">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
+        </p>
+        <ul class="team-list">
+          <li class="team-item">
+            <article class="team-article">
+              <img
+                src="./imgs/matthew-dix.png"
+                alt="Matthew"
+                class="team-img"
+              />
+              <h3 class="team-article-title">Matthew Dix</h3>
+              <p class="team-article-desc">Graphic Design</p>
+            </article>
+          </li>
+          <li class="team-item">
+            <article class="team-article">
+              <img
+                src=".//imgs/christopher-campbell.png"
+                alt="Christopher"
+                class="team-img"
+              />
+              <h3 class="team-article-title">Christopher Campbell</h3>
+              <p class="team-article-desc">Brending/UX design</p>
+            </article>
+          </li>
+          <li class="team-item">
+            <article class="team-article">
+              <img
+                src="./imgs/michael-fertig.png"
+                alt="Michael"
+                class="team-img"
+              />
+              <h3 class="team-article-title">Michael Fertig</h3>
+              <p class="team-article-desc">Developer</p>
+            </article>
+          </li>
+        </ul>
+      </div>
     </section>
   </main>
   <footer class="footer">
-    <div class="container"></div>
-    <p class="footer-copright">&copy; 2016 MoGo free PSD template by
-      <a class="footer-link" href="#">Laaqiq</a>
-    </p>
-    <form class="footer-form">
-      <input class="footer-input" type="email" placeholder="Your Email" />
-      <button class="footer-button" type="submit">Subscribe</button>
-    </form>
-  </div>
+    <div class="container footer-container">
+      <p class="footer-desc">
+        &copy; MoGo free PSD template by
+        <a href="" class="footer-link">Laaqiq</a>
+      </p>
+      <form class="footer-form">
+        <input type="email" placeholder="Your Email..." />
+        <button type="submit" class="footer-button">SUBSCRIBE</button>
+      </form>
+    </div>
   </footer>
 </body>
 
