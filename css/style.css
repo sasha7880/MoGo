@@ -37,7 +37,7 @@ body {
   align-items: center;
 }
 
-.nav-list {
+.header-nav-list {
   display: flex;
   gap: 55px;
 }
@@ -263,7 +263,7 @@ body {
   display: flex;
 }
 
-.footer-button {
+.footer-form-button {
   padding: 11px 38px 12px 38px;
   font-variant: small-caps;
   font-weight: 700;
@@ -275,7 +275,7 @@ body {
   border-width: 0;
 }
 
-.footer-input {
+.footer-form-input {
   color: var(--paragraph-color);
   font-family: var(--second-family);
   font-style: italic;
