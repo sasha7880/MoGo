@@ -42,7 +42,7 @@ body {
   gap: 55px;
 }
 
-.nav-link {
+.header-link {
   color: var(--nav-text-color);
   font-weight: 400;
   font-size: 14px;
@@ -155,7 +155,7 @@ body {
   padding-top: 20px;
 }
 
-.hero-img {
+.hero-article-img {
   padding-top: 3px;
   padding-bottom: 34px;
 }
