@@ -32,7 +32,6 @@ body {
 
 .header {
   padding-top: 17px;
-  padding-bottom: 80px;
 }
 
 .header-container {
@@ -73,9 +72,8 @@ body {
 }
 
 .hero {
+  padding-top: 68px;
   padding-bottom: 100px;
-  padding-left: 30px;
-  padding-right: 30px;
 }
 
 .hero-container {
@@ -169,7 +167,6 @@ body {
 
 .team {
   text-align: center;
-  padding-top: 27px;
   padding-bottom: 80px;
 }
 
@@ -233,9 +230,7 @@ body {
   font-style: italic;
   color: var(--paragraph-color);
 }
-
 .footer {
-  padding-top: 9px;
   padding-bottom: 10px;
 }
 
@@ -249,8 +244,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 9px;
-  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 .footer-desc {
