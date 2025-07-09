@@ -37,7 +37,6 @@ body {
 .header-container {
   display: flex;
   justify-content: space-between;
-  padding-top: 17px;
   align-items: center;
 }
 
@@ -63,7 +62,6 @@ body {
 }
 
 .header-logo {
-  padding-bottom: 12px;
   font-size: 30px;
   font-weight: 700;
   line-height: 100%;
@@ -95,7 +93,6 @@ body {
 
 .hero-subtitle {
   text-align: center;
-  padding-top: 81px;
   padding-bottom: 20px;
   color: var(--titles-color);
   font-family: var(--third-family);
@@ -130,9 +127,6 @@ body {
   gap: 70px;
 }
 
-.hero-item {
-  padding-bottom: 100px;
-}
 
 .hero-article {
   display: flex;
