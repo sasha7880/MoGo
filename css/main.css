@@ -1,12 +1,64 @@
-:root {
-  --nav-text-color: rgba(149, 225, 211, 1);
-  --focus-text-color: rgba(243, 129, 129, 1);
-  --titles-color: rgba(51, 51, 51, 1);
-  --paragraph-color: rgba(182, 182, 182, 1);
-  --background-color: rgba(255, 255, 255, 1);
-  --font-family: "Montserrat", sans-serif;
-  --second-family: "Roboto", sans-serif;
-  --third-family: "Kaushan Script", sans-serif;
+body {
+  font-family: var(--font-family);
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 * {
@@ -19,15 +71,6 @@ a {
 
 ul {
   list-style: none;
-}
-
-body {
-  font-family: var(--font-family)
-}
-
-.container {
-  width: 1200px;
-  margin: 0 auto;
 }
 
 .header {
@@ -103,7 +146,7 @@ body {
 }
 
 .hero-line,
-.team-line{
+.team-line {
   width: 60px;
   height: 4px;
   background-color: var(--focus-text-color);
@@ -126,7 +169,6 @@ body {
   display: flex;
   gap: 70px;
 }
-
 
 .hero-article {
   display: flex;
@@ -158,11 +200,11 @@ body {
   padding-top: 3px;
   padding-bottom: 34px;
 }
+
 .team {
   text-align: center;
   padding-bottom: 80px;
 }
-
 
 .team-subtitle {
   color: var(--titles-color);
@@ -181,7 +223,6 @@ body {
   line-height: auto;
   font-variant: small-caps;
   color: var(--titles-color);
-
 }
 
 .team-desc {
@@ -201,6 +242,7 @@ body {
   display: flex;
   gap: 30px;
 }
+
 .team-article {
   position: relative;
 }
@@ -226,21 +268,19 @@ body {
   font-style: italic;
   color: var(--paragraph-color);
 }
+
 .team-article-overlay {
   display: none;
   width: 380px;
   height: 470px;
-  background-image: linear-gradient(
-    to bottom,
-    rgba(239, 139, 138, 0.8),
-    rgba(229, 207, 130, 0.8)
-  );
+  background-image: linear-gradient(to bottom, rgba(239, 139, 138, 0.8), rgba(229, 207, 130, 0.8));
   position: absolute;
 }
 
 .team-article:hover .team-article-overlay {
   display: block;
 }
+
 .footer {
   padding-bottom: 10px;
 }
@@ -303,4 +343,15 @@ body {
   border-color: var(--paragraph-color);
   border-style: solid;
   padding: 12px 145px 11px 10px;
+}
+
+:root {
+  --nav-text-color: rgba(149, 225, 211, 1);
+  --focus-text-color: rgba(243, 129, 129, 1);
+  --titles-color: rgba(51, 51, 51, 1);
+  --paragraph-color: rgba(182, 182, 182, 1);
+  --background-color: rgba(255, 255, 255, 1);
+  --font-family: "Montserrat", sans-serif;
+  --second-family: "Roboto", sans-serif;
+  --third-family: "Kaushan Script", sans-serif;
 }
