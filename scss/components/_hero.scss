@@ -1,4 +1,4 @@
-@use "../utils/variables" as *;
+@use '../utils/variables' as *;
 @use '../utils/fonts' as *;
 
 .hero {
@@ -21,9 +21,13 @@
   }
 
   &__icon {
-    fill: $nav-text-color;
+    width: 38px;
+    height: 37px;
+    fill: $accent-color;
+ 
 
-    &:hover {
+
+    &:after {
       fill: $focus-text-color;
     }
   }
@@ -41,8 +45,6 @@
     font-variant: small-caps;
     font-size: 14px;
     font-weight: 400;
-    letter-spacing: 0;
-    line-height: auto;
     padding-left: 20px;
   }
 

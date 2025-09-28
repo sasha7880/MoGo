@@ -1,6 +1,8 @@
-@use "../utils/variables" as *;
-@use "../utils/placeholders" as *;
-@use '../utils/fonts' as *;
+@use '../utils/variables' as *;
+@use '../utils/placeholder' as *;
+@use  '../utils/fonts' as *;
+
+
 
 .footer {
   padding-bottom: 10px;
@@ -34,12 +36,11 @@
     font-style: italic;
     font-size: 14px;
     font-weight: 300;
-    line-height: auto;
-    letter-spacing: 0;
     border-width: 1px;
     border-color: $paragraph-color;
     border-style: solid;
-    padding: 12px 145px 11px 10px;
+    border-right: none;
+    padding: 12px 10px 11px 10px;
   }
 
   &__button {
@@ -48,9 +49,8 @@
     font-weight: 700;
     font-size: 14px;
     color: $background-color;
-    background-color: $nav-text-color;
-    line-height: auto;
-    letter-spacing: 0;
+    background-color: $accent-color;
     border-width: 0;
+    cursor: pointer;
   }
 }
