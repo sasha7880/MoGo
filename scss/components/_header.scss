@@ -15,11 +15,17 @@
     display: flex;
     gap: 55px;
   }
-
+  
   &__link {
     color: $accent-color;
     font-size: 14px;
     text-transform: uppercase;
+
+    &:hover,
+    &:focus {
+      color: $focus-text-color;
+      outline: none;
+    }
   }
 
   &__item {

@@ -24,6 +24,7 @@
     width: 38px;
     height: 37px;
     fill: $accent-color;
+  
  
 
 
@@ -33,7 +34,7 @@
   }
 
   &__item {
-    flex-basis: calc((100% - 200px) / 3);
+    flex-basis: calc((100% - 140px) / 3);
   }
 
   &__article {
@@ -52,7 +53,6 @@
     color: $paragraph-color;
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
-    letter-spacing: 0;
     line-height: 22px;
     font-weight: 400;
     padding-left: 19px;
