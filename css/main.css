@@ -295,10 +295,6 @@ body {
   padding-top: 20px;
   width: 310px;
 }
-.hero__icon {
-  width: 37px;
-  height: 37px;
-}
 
 .title--hero::after {
   margin-top: 40px;
@@ -321,7 +317,11 @@ body {
   color: rgb(0, 0, 0);
 }
 .footer__link {
+  color: rgb(149, 225, 211);
+}
+.footer__link:hover, .footer__link:focus {
   color: rgb(243, 129, 129);
+  outline: none;
 }
 .footer__form {
   display: flex;
