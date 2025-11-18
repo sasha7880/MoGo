@@ -1,57 +1,55 @@
-@use "../utils/variables" as *;
-@use "../utils/fonts" as *;
+@use '../utils/variables' as *;
+@use '../utils/fonts' as *;
 
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 a {
-  text-decoration: none;
-}
-
-/* Make links change color on hover/focus using the project focus color */
-a:focus,
-a:hover {
-  color: $focus-text-color;
+	text-decoration: none;
 }
 
 ul {
-  list-style: none;
+	list-style: none;
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .container {
-  max-width: 1200px;
-  margin: 0 auto;
+	max-width: 1200px;
+	margin: 0 auto;
 }
 
 .title {
-  text-align: center;
-  color: $titles-color;
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 100%;
-  font-variant: small-caps;
+	color: $title-color;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 30px;
+	text-align: center;
 
-  &::after {
-    display: block;
-    content: "";
-    width: 60px;
-    height: 4px;
-    background-color: $focus-text-color;
-    margin: 0 auto;
-  }
+	&::after {
+		display: block;
+		content: '';
+		width: 60px;
+		height: 4px;
+		background-color: $hover-text-color;
+	}
 }
 
 .subtitle {
-  text-align: center;
-  padding-bottom: 20px;
-  color: $titles-color;
-  font-family: "Kaushan Script", sans-serif;
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 100%;
+	color: $title-color;
+	font-family: 'Kaushan Script', sans-serif;
+	font-size: 24px;
+	text-align: center;
+}
+
+.burger-menu__button {
+	display: none;
+}
+
+.burger-menu__svg {
+	width: 50px;
+	height: 50px;
 }

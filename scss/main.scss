@@ -1,9 +1,11 @@
-@use './base/reset';
-@use './base/base';
 @use './utils/variables';
-@use './utils/placeholder';
-@use './components/header';
-@use './components/hero';
+@use './base/reset';
+@use './utils/fonts';
+@use './base/base';
 @use './components/footer';
+@use './components/service';
+@use './components/header';
+@use './components/burger-menu';
 @use './components/team';
+@use './utils/placeholders';
 @use './base/adaptive';

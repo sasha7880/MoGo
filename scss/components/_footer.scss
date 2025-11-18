@@ -1,61 +1,55 @@
 @use '../utils/variables' as *;
-@use '../utils/placeholder' as *;
-@use  '../utils/fonts' as *;
-
-
+@use '../utils/placeholders' as *;
+@use '../utils/fonts' as *;
 
 .footer {
-  padding-bottom: 10px;
+	padding-bottom: 10px;
 
-  &__container {
-    padding-top: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-top-width: 1px;
-    border-top-color: $paragraph-color;
-    border-top-style: solid;
-  }
+	&__container {
+		padding-top: 10px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		border-top: 1px solid $paragraph-color;
+	}
 
-  &__desc {
-    @extend %footer-txt;
-    color: $footer-desc-color;
-  }
+	&__description {
+		@extend %footer-text;
+		color: $footer-description-color;
+	}
 
-  &__link {
-    color: $accent-color;
-    &:hover,
-    &:focus {
-      color: $focus-text-color;
-      outline: none;
-    }
-  }
+	&__link {
+		color: $hover-text-color;
+		font-size: 14px;
+	}
 
-  &__form {
-    display: flex;
-  }
+	&__form {
+		display: flex;
+	}
 
-  &__input {
-    color: $paragraph-color;
-    font-family: 'Roboto', sans-serif;
-    font-style: italic;
-    font-size: 14px;
-    font-weight: 300;
-    border-width: 1px;
-    border-color: $paragraph-color;
-    border-style: solid;
-    border-right: none;
-    padding: 12px 10px 11px 10px;
-  }
+	&__input {
+		color: $paragraph-color;
+		font-family: 'Roboto', sans-serif;
+		font-style: italic;
+		font-size: 14px;
+		font-weight: 300;
+		border-width: 1px;
+		border-color: $paragraph-color;
+		border-style: solid;
+		padding: 12px 10px 11px 10px;
+		width: 230px;
+		height: 40px;
+		border-right: none;
+	}
 
-  &__button {
-    padding: 11px 38px 12px 38px;
-    font-variant: small-caps;
-    font-weight: 700;
-    font-size: 14px;
-    color: $background-color;
-    background-color: $accent-color;
-    border-width: 0;
-    cursor: pointer;
-  }
+	&__button {
+		font-variant: small-caps;
+		font-weight: 700;
+		font-size: 14px;
+		color: $background-color;
+		background-color: $navigation-text-color;
+		border-width: 0;
+		width: 150px;
+		height: 40px;
+	}
 }
